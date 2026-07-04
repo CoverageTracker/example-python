@@ -1,0 +1,20 @@
+[project]
+name = "textkit"
+version = "0.1.0"
+description = "Small text-analysis toolkit — Python reference example for Coverage Tracker."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "coverage>=7", "radon>=6"]
+
+[tool.setuptools]
+packages = ["textkit"]
+
+[tool.coverage.run]
+source = ["textkit"]
+branch = true
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
