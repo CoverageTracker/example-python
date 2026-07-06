@@ -2,6 +2,7 @@
 
 [![coverage badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdemo.coveragetracker.dev%2Fapi%2Fbadge%2FCoverageTracker%2Fexample-python%2Fcoverage.json)](https://demo.coveragetracker.dev/CoverageTracker/example-python?metric=coverage)
 [![complexity badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdemo.coveragetracker.dev%2Fapi%2Fbadge%2FCoverageTracker%2Fexample-python%2Fcomplexity.json)](https://demo.coveragetracker.dev/CoverageTracker/example-python?metric=complexity)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCoverageTracker%2Fexample-python.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FCoverageTracker%2Fexample-python?ref=badge_shield)
 
 A small, idiomatic Python text-analysis toolkit used as the Python reference
 example for [Coverage Tracker](https://coveragetracker.dev). It exists to
@@ -32,3 +33,7 @@ pip install -e ".[dev]"
 coverage run -m pytest && coverage lcov -o coverage.lcov   # writes coverage.lcov
 radon cc -j textkit > radon.json
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCoverageTracker%2Fexample-python.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FCoverageTracker%2Fexample-python?ref=badge_large)
